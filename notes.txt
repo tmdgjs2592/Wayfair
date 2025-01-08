@@ -1,0 +1,23 @@
+1/8/2025
+Similar Products Service (SPS)
+- Service related to search and recommendations
+- reduce duplication between existing systems
+- handles decommissioning of certain components due to Akka license changes
+
+Apache Flink vs Akka
+- Akka
+	- streamlines the process of building and running heavy-duty distributed apps.
+	- creating a standalone application
+- Apache Flink
+	- it manages a cluster (Automatic distribution)
+	- each incoming event affects the final results exactly once even in case o a machine or software failure.
+	- uses Akka internally.
+
+Flink vs Kafka
+They both process data.
+Kafka is an event buffer and Flink is a stream processing framework that can act on a buffer or any data source.
+
+PR: Pull Request
+
+
+
